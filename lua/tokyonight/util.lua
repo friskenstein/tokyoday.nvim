@@ -140,7 +140,7 @@ end
 M.cache = {}
 
 function M.cache.file(key)
-  return vim.fn.stdpath("cache") .. "/tokyonight-" .. key .. ".json"
+  return vim.fn.stdpath("cache") .. "/tokyoday-" .. key .. ".json"
 end
 
 ---@param key string
